@@ -25,7 +25,7 @@
 
   --transition: 0.1s ease-in-out;
   --transition-slow: 0.3s ease-in-out;
-
+  --fg-commander: #fafbfc;
   --bg: #000;
   --fg: #fafbfc;
   --gray: #666;
@@ -46,6 +46,7 @@
 }
 
 [data-theme='light'] {
+  --fg-commander: #000;
   --bg: #fff;
   --fg: #000;
   --gray: #888;
@@ -118,7 +119,6 @@ h1 {
   font-size: 48px;
   line-height: 50px;
   margin: 0 0 20px;
-  color: var(--fg);
 }
 
 h2 {

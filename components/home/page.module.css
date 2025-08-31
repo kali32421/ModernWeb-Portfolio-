@@ -57,3 +57,18 @@
   max-width: 760px;
   padding: 0px 20px;
 }
+.wrapper_home > div {
+  background-color: #000 !important;
+}
+.wrapper_text > div > h1 {
+  color: #fff !important;
+}
+.wrapper_text > div > p > strong {
+  color: #fff !important;
+}
+.wrapper_text > div > p > strong > a {
+  color: #fff !important;
+}
+.wrapper_text > div > button > div {
+  color: #fff !important;
+}

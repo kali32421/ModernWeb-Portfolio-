@@ -21,7 +21,6 @@
 }
 
 .type {
-  color: white !important;
   font-size: 1rem;
   line-height: 30px;
   flex-basis: 5rem;
@@ -72,4 +71,7 @@
   .description {
     -webkit-line-clamp: 2;
   }
+}
+.type > span > svg {
+  color: var(--fg);
 }

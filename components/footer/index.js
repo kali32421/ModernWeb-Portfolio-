@@ -1,80 +1,40 @@
-import CountUp from '@components/countup'
-import { Eye } from 'lucide-react'
-import { memo, useEffect, useState } from 'react'
-import {
-  getVisitorCount,
-  incrementVisitorCount
-} from '../../services/firebaseService'
+import { memo } from 'react'
 import styles from './footer.module.css'
 
 const RenderFooter = () => {
-  const [firebaseValue, setFirebaseValue] = useState(0)
-
-  useEffect(() => {
-    const updateCount = async () => {
-      try {
-        await incrementVisitorCount('index')
-        const count = await getVisitorCount('index')
-        setFirebaseValue(count)
-      } catch (error) {
-        console.error(error)
-      }
-    }
-    updateCount()
-  }, [])
-
   return (
     <div className={styles.footer_container}>
       <footer id="section-footer" className={styles.page_section}>
-        <div className={styles.page_section_inner}>
-          <section
-            id="footer-top"
-            className={`${styles.footer_top} ${styles.hide_mobile}`}
+        <span className={styles.footer}>
+          <a
+            href="https://steamcommunity.com/id/Devollox/"
+            className={styles.wrapper_footer}
           >
-            <div className={styles.footer_column}>
-              <h3 className={styles.footer_column_header}>Community</h3>
-              <a
-                rel="noreferrer noopener"
-                target="_blank"
-                href="/discord"
-                className={styles.footer_column_item}
-              >
-                <span>Discord</span>
-              </a>
-              <a
-                rel="noreferrer noopener"
-                target="_blank"
-                href="https://github.com/devollox/"
-                className={styles.footer_column_item}
-              >
-                <span>GitHub</span>
-              </a>
-              <a
-                rel="noreferrer noopener"
-                target="_blank"
-                href="https://steamcommunity.com/id/Devollox/"
-                className={styles.footer_column_item}
-              >
-                <span>Steam</span>
-              </a>
-            </div>
-            <div className={styles.footer_column}>
-              <h3 className={styles.footer_column_header}>Content</h3>
-              <a href="/" className={styles.footer_column_item}>
-                <span>Developers</span>
-              </a>
-            </div>
-            <div className={styles.footer_column}>
-              <h3 className={styles.footer_column_header}>Help</h3>
-              <a
-                href="/404"
-                target="_blank"
-                className={styles.footer_column_item}
-              >
-                Page of life
-              </a>
-            </div>
-          </section>
+            <span>Steam</span>
+          </a>
+          <a
+            href="https://github.com/devollox"
+            target="_blank"
+            className={styles.wrapper_footer}
+          >
+            <span>GitHub</span>
+          </a>
+          <a
+            href="https://ru.stackoverflow.com/users/560760/devollox"
+            target="_blank"
+            className={styles.wrapper_footer}
+          >
+            <span>stackoverflow</span>
+          </a>
+          <a
+            href="https://www.reddit.com/user/Devollox/"
+            target="_blank"
+            className={styles.wrapper_footer}
+          >
+            <span>reddit</span>
+          </a>
+        </span>
+        <div className={styles.page_section_inner}>
           <section
             id="footer-bottom"
             className={
@@ -92,28 +52,15 @@ const RenderFooter = () => {
               id="footer-copyright-container"
             >
               <div
-                className={styles.footer_copyright + ' ' + styles.text_center}
+                className={styles.flex_container + ' ' + styles.wrap}
+                id="footer-copyright-container"
               >
-                <span style={{ color: '#95989d' }}>Dev</span>{' '}
-                <a className={styles.copyright_logo}>Ⓓ</a> <a> Devollox.</a>
-              </div>
-            </div>
-            <div
-              className={styles.flex_container + ' ' + styles.wrap}
-              id="footer-copyright-container"
-            >
-              <div style={{ display: 'flex', marginBottom: '20px' }}>
-                <Eye />{' '}
-                <a style={{ marginLeft: '10px' }}>
-                  <CountUp
-                    from={0}
-                    to={firebaseValue}
-                    separator=","
-                    direction="up"
-                    duration={1}
-                    className="count-up-text"
-                  />
-                </a>
+                <div
+                  className={styles.footer_copyright + ' ' + styles.text_center}
+                >
+                  <span style={{ color: '#95989d' }}>Dev</span>{' '}
+                  <a className={styles.copyright_logo}>Ⓓ</a> <a> Devollox.</a>
+                </div>
               </div>
             </div>
           </section>

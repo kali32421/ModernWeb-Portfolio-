@@ -14,7 +14,7 @@
 .logo:hover,
 .logo:focus-within {
   outline: none;
-  background: var(--lighter-gray);
+  background: #222;
 }
 
 .command_homepage {
@@ -34,7 +34,7 @@
 .logo:hover,
 .logo:focus-within {
   outline: none;
-  background: var(--lighter-gray);
+  background: #222;
 }
 
 .command {
@@ -49,6 +49,7 @@
 @media (max-width: 960px) {
   .nav_page,
   .nav_homepage {
+    margin-top: 0 !important;
     margin: var(--gap) 0;
   }
 }
@@ -56,16 +57,17 @@
 @media (min-width: 960px) {
   .nav_page,
   .nav_homepage {
+    margin-top: 0 !important;
     margin: var(--gap-double) 0;
   }
 }
 
 .nav_page {
+  background-color: #000;
   z-index: 10;
   position: sticky;
   padding: var(--gap) 0;
   top: 0;
-  background-color: var(--bg);
 }
 
 .nav_homepage {
@@ -74,7 +76,6 @@
   width: 100%;
   padding: var(--gap) 0;
   top: 0;
-  background-color: var(--bg);
 }
 
 .header_page {

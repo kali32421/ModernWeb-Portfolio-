@@ -26,7 +26,7 @@ const TextEntry = ({ title, description, type, comment, href, as, slug }) => {
           {type}
           <span style={{ display: 'flex' }}>
             <Eye />
-            <span style={{ marginLeft: '5px', color: 'white' }}>
+            <span style={{ marginLeft: '5px', color: 'var(--fg)' }}>
               <CountUp
                 from={0}
                 to={viewCount}

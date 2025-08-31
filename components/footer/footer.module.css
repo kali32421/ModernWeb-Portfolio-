@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=TASA+Explorer:wght@400..800&display=swap');
 
 .footer_container {
+  background-color: #000;
   position: relative;
   z-index: 1;
   margin-top: auto;
@@ -14,8 +15,7 @@
   }
 }
 .page_section {
-  padding: 48px 0px;
-  background: #0a0a0a !important;
+  padding-bottom: 20px;
   margin-top: auto;
   position: relative;
   border-top: 1px solid #1f1f1f;
@@ -120,7 +120,7 @@
 
 .footer_copyright {
   color: var(--text-muted);
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 500;
 }
 
@@ -130,6 +130,28 @@
   font-weight: 700;
 }
 .flex_container {
-  justify-content: space-between;
+  justify-content: center;
   display: flex;
+}
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0px;
+}
+.wrapper_footer:first-child {
+  margin: 0px;
+}
+.wrapper_footer {
+  color: var(--colors-secondary);
+  display: flex;
+  font-size: 15px;
+  border: 0px;
+  margin-left: 20px;
+  text-decoration: none;
+  text-transform: lowercase;
+  transition: color var(--transitions-duration) ease-in-out;
+}
+.wrapper_footer:hover {
+  color: var(--fg);
 }
