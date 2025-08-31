@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=TASA+Explorer:wght@400..800&display=swap');
+
+.footer_container {
+  position: relative;
+  z-index: 1;
+  margin-top: auto;
+}
+@media (max-width: 960px) {
+  .hide_mobile {
+    display: none !important;
+  }
+  .flex_container {
+    justify-content: space-between;
+  }
+}
+.page_section {
+  padding: 48px 0px;
+  background: #0a0a0a !important;
+  margin-top: auto;
+  position: relative;
+  border-top: 1px solid #1f1f1f;
+}
+
+.footer_top {
+  max-width: 1200px;
+  margin: 0px auto 48px;
+  display: flex;
+}
+
+.page_section_inner {
+  max-width: 1480px;
+  width: 100%;
+  padding: 0px 128px;
+  margin: 0px auto;
+}
+
+.footer_top {
+  max-width: 1200px;
+  margin: 0px auto 48px;
+}
+
+.footer_column {
+  flex-grow: 1;
+}
+
+.footer_column:last-child {
+  flex-grow: 0;
+}
+
+.footer_column_header {
+  color: #f1f1f1;
+  font-size: 14px !important;
+  margin-bottom: 5px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.footer_column_item {
+  display: block;
+  color: #95989d;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 4px;
+  transition: 0.15s;
+  width: fit-content;
+}
+
+.footer_column_item:hover {
+  color: var(--text-normal);
+}
+
+.footer_logo_wrap {
+  display: block;
+  width: fit-content;
+}
+
+.footer_logo {
+  border-radius: 3px;
+  height: 72px;
+  width: auto;
+  margin-bottom: 10px;
+}
+
+#footer_social_icons {
+  gap: 12px;
+}
+
+.social_icon {
+  border-radius: 3px;
+  color: var(--text-normal);
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.15s;
+}
+
+.social_icon:hover {
+  color: var(--accent);
+}
+
+.footer_privacy,
+.footer_privacy-item {
+  color: var(--text-muted);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.footer_privacy-item {
+  display: block;
+  text-decoration: none;
+  margin-bottom: 4px;
+  transition: 0.15s;
+}
+
+.footer_privacy_item:hover {
+  color: var(--text-normal);
+}
+
+.footer_copyright {
+  color: var(--text-muted);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.footer_copyright > a {
+  color: rgb(100, 108, 255);
+  text-decoration: inherit;
+  font-weight: 700;
+}
+.flex_container {
+  justify-content: space-between;
+  display: flex;
+}
