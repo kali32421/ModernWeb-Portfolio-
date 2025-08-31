@@ -8,6 +8,8 @@ I used to build my website using React, but decided to switch to Next.js because
 
 This project is a constant work in progress, so if you find any bugs, typos or other errors, please feel free to open an issue or pull request. This project is open source, so please feel free to fork and adapt for your own projects (credit would be appreciated).
 
+`I also don't mind if you improve it, there is a lot of legacy code here, as well as dependencies`
+
 ## Getting this project up and running
 
 1.  **Fork or Clone**
@@ -50,4 +52,3 @@ To learn more about Next.js, take a look at the following resources:
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
