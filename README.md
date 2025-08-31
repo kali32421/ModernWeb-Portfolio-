@@ -19,13 +19,13 @@ This project is a constant work in progress, so if you find any bugs, typos or o
     If you do not have a yarn selected, then install it first.
    
      ```sh
-     npm install --global yarn
+     npm install --global pnpm
      ```
      
-    Once this is installed you can run `yarn install` in your project directory to install dependencies.
+    Once this is installed you can run `pnpm install` in your project directory to install dependencies.
 
     ```sh
-    yarn install
+    pnpm install
     ```
 
 1.  **Start developing.**
