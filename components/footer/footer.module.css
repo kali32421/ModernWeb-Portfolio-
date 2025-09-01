@@ -153,5 +153,5 @@
   transition: color var(--transitions-duration) ease-in-out;
 }
 .wrapper_footer:hover {
-  color: var(--fg);
+  color: #fff;
 }
