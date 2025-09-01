@@ -23,7 +23,7 @@ const Header = ({ title, content, variant }) => {
       >
         <Link legacyBehavior href="/">
           <a aria-label="Navigate Home" className={styles.logo}>
-            <Code size={32} color="#f5f5f5" />
+            <Code size={32} color="var(--fg)" />
           </a>
         </Link>
 

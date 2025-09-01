@@ -58,7 +58,7 @@
   padding: 0px 20px;
 }
 .wrapper_home > div {
-  background-color: #000 !important;
+  background-color: var(--bg) !important;
 }
 .wrapper_text > div > h1 {
   color: #fff !important;

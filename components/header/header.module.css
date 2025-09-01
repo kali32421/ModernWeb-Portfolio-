@@ -34,7 +34,7 @@
 .logo:hover,
 .logo:focus-within {
   outline: none;
-  background: #222;
+  background: var(--light-gray);
 }
 
 .command {
@@ -62,7 +62,7 @@
 }
 
 .nav_page {
-  background-color: #000;
+  background-color: var(--bg);
   z-index: 10;
   position: sticky;
   padding: var(--gap) 0;
